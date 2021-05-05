@@ -1,0 +1,237 @@
+/* 全体の設定 */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Hiragino Mincho ProN;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+li {
+  list-style: none;
+}
+/* header の設定 */
+header {
+  height: 80vh;
+  background-image: url(image/main.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 84px;
+}
+
+header .header-block {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header .header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+header .header-top .header-logo {
+  width: 12.6%;
+}
+
+header .header-top .header-logo img{
+  width: 100%;
+}
+
+header .header-top .header-link {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+header .header-top .header-link li {
+  margin: 0 30px;
+}
+
+
+
+header .header-title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 19%;
+}
+
+header .header-title h2 {
+  font-size: 48px;
+  font-weight: normal;
+  padding: 0;
+}
+
+/* mainの設定 */
+main {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* お知らせ */
+main .notice {
+  margin-bottom: 173px;
+}
+
+main .notice h3 {
+  font-size: 38px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 84px 0;
+}
+
+main .notice .content {
+  margin: 0 auto 30px auto;
+  width: 63%;
+  padding: 0 0 30px 0;
+  border-bottom: solid 1px black;
+}
+
+main .notice .content a {
+  display: flex;
+  width: 100%;
+  
+}
+
+main .notice .content a .item {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+main .notice .content a .subject {
+  font-size: 11px;
+  border: solid 1px black;
+  padding: 3px 10px;
+  margin-right: 20px;
+}
+
+/* 施工事例 */
+.construction {
+  margin-bottom: 173px;
+}
+
+.construction h3 {
+  font-size: 38px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 84px 0;
+}
+
+.construction .content-block {
+  display: flex;
+  margin-bottom: 85px;
+}
+
+.construction .content-block .content {
+  width: 50%;
+  text-align: center;
+}
+
+.construction .content-block .content .build {
+  width: 78%;
+} 
+
+.construction .content-block .content h4 {
+  font-size: 24px;
+  margin: 20px 0 10px 0;
+  font-weight: normal;
+}
+
+.construction .content-block .content .prefecture {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.construction .content-block .content .button {
+  width: 55%;
+}
+
+.construction .construction-case {
+  text-align: center;
+}
+
+.construction .construction-case a{
+  width: 100%;
+  padding: 12px 40px;
+  border: solid 1px #000;
+  font-size: 20px;
+}
+
+/* リンクブロック */
+.link-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-block img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+/* footer */
+footer {
+  background-color:#000;
+}
+
+.footer-block {
+  display: flex; 
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+  
+}
+
+.footer-block .footer-link {
+  display: flex;
+  
+}
+
+.footer-block .footer-link a {
+  color: #fff;
+}
+
+.footer-block .footer-link a li {
+  margin: 30px;
+  font-size: 18px;
+}
+
+.footer-block .footer-logo {
+  width: 9%;
+}
+
+.footer-block .footer-logo img {
+  width: 100%;
+}
+
+footer .copy-right {
+  text-align: center;
+}
+
+footer .copy-right p {
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+
+
